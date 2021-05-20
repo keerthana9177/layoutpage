@@ -1,0 +1,36 @@
+<div class="header">
+</div>
+<input type="checkbox" id="openSidebarMenu">
+
+<label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner top"></div>
+    <div class="spinner middle"></div>
+    <div class="spinner bottom"></div>
+</label>
+<div class="sidebarMenu">
+    <ol>
+        <li>
+            <!-- <span class="material-icons" style="color:white"></span> -->
+            <a href="#" routerLink="home">home</a>
+        </li>
+        <li>
+            <!-- <span class="fa fa-fw fa-user" style="color:white">
+			</span> -->
+            <a href="#" routerLink="contact">contact</a>
+        </li>
+        <li>
+            <!-- <span class="fa fa-fw fa-headset" style="color:white"></span> -->
+            <a href="#" routerLink="services">services</a>
+        </li>
+        <li>
+            <!-- <span class="fa fa-fw fa-info" style="color:white"></span> -->
+            <a href="#" routerLink="about">about</a>
+        </li>
+    </ol>
+</div>
+<div class="main ">
+    <router-outlet></router-outlet>
+</div>
+<div class="footer">
+
+</div>
